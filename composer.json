@@ -6,6 +6,8 @@
         "yii2",
         "framework"
     ],
+    "license": "MIT",
+    "homepage": "https://www.drupecms.com/blog/codeigniter-with-yii2",
     "require": {
         "php": ">=5.4.0",
         "ext-mbstring": "*",
