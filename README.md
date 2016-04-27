@@ -18,7 +18,7 @@ composer require myweishanli/codeigniter-with-yii2
 
 ## 文件配置
 
-安装好后在`index.php`文件找到
+安装好后找到文件`index.php`的
 
 ```php
 require_once BASEPATH.'core/CodeIgniter.php';
