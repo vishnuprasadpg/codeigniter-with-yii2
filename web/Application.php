@@ -37,6 +37,7 @@ class Application extends \yii\base\Application
     {
         // TODO: Implement handleRequest() method.
     }
+
     /**
      * @inheritdoc
      */
