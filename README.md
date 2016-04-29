@@ -12,7 +12,7 @@ composer require myweishanli/codeigniter-with-yii2
 ```
 或添加
 
-```json
+```
 "myweishanli/codeigniter-with-yii2": "~1.0.0"
 ```
 
@@ -27,5 +27,5 @@ require_once BASEPATH.'core/CodeIgniter.php';
 之前添加一行
 
 ```php
-require FCPATH . 'vendor/autoload.php';
+require ROOTPATH . 'vendor/autoload.php';
 ```
