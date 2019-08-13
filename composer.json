@@ -7,7 +7,6 @@
         "framework"
     ],
     "license": "MIT",
-    "homepage": "https://www.drupecms.com/blog/codeigniter-with-yii2",
     "require": {
         "php": ">=5.4.0",
         "ext-mbstring": "*",
@@ -23,10 +22,5 @@
     },
     "bin": [
         "yii"
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
-    }
+    ]
 }
