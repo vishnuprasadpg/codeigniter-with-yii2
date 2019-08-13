@@ -1,30 +1,30 @@
 # Codeigniter with Yii2
 
-1、安装
+1, installation
 ------------
 
-安装这个扩展的首选方式是通过 [composer](http://getcomposer.org/download/).
+The preferred way to install this extension is via [composer] (http://getcomposer.org/download/).
 
-执行命令
+Excuting an order
 
 ```bash
-composer require myweishanli/codeigniter-with-yii2
+composer require vishnuprasadpg/codeigniter-with-yii2
 ```
-或添加
+Or add
 
 ```
-"myweishanli/codeigniter-with-yii2": "~1.0.0"
+"vishnuprasadpg/codeigniter-with-yii2": "~1.0.0"
 ```
 
-## 文件配置
+## File Configuration
 
-安装好后找到文件`index.php`的
+After installation, find the file `index.php`
 
 ```php
 require_once BASEPATH.'core/CodeIgniter.php';
 ```
 
-之前添加一行
+Add a line before
 
 ```php
 require ROOTPATH . 'vendor/autoload.php';
