@@ -15,7 +15,7 @@
         "lib-pcre": "*",
         "yiisoft/yii2-composer": "~2.0.4",
         "ezyang/htmlpurifier": "~4.6",
-        "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0",
+        "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0"
     },
     "autoload": {
         "files": ["Yii.php"],
