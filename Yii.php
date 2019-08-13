@@ -8,7 +8,7 @@
  */
 
 require(__DIR__ . '/BaseYii.php');
-require_once(FCPATH . APPPATH . 'config/database.php');
+require_once(APPPATH . 'config/database.php');
 
 /**
  * Yii is a helper class serving common framework functionalities.

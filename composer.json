@@ -1,5 +1,5 @@
 {
-    "name": "myweishanli/codeigniter-with-yii2",
+    "name": "vishnuprasadpg/codeigniter-with-yii2",
     "description": "CodeIgniter with Yii2",
     "keywords": [
         "CodeIgniter",
@@ -11,10 +11,11 @@
     "require": {
         "php": ">=5.4.0",
         "ext-mbstring": "*",
+        "ext-ctype": "*",
         "lib-pcre": "*",
-        "yiisoft/yii2-composer": "*",
-        "ezyang/htmlpurifier": "4.6.*",
-        "cebe/markdown": "~1.0.0 | ~1.1.0"
+        "yiisoft/yii2-composer": "~2.0.4",
+        "ezyang/htmlpurifier": "~4.6",
+        "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0",
     },
     "autoload": {
         "files": ["Yii.php"],
