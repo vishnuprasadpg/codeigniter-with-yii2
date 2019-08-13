@@ -13,7 +13,7 @@ composer require vishnuprasadpg/codeigniter-with-yii2
 Or add
 
 ```
-"vishnuprasadpg/codeigniter-with-yii2": "~1.0.0"
+"vishnuprasadpg/codeigniter-with-yii2": "~2.0.0"
 ```
 
 ## File Configuration
