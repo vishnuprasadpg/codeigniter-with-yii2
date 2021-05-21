@@ -42,9 +42,13 @@ foreach ($db as $dbKey => $dbConfig) {
     } else {
         $dbName = $dbKey;
     }
+    $port = 3306;
+    if(isset($dbConfig['port'])){
+        $port = $dbConfig['port'];
+    }
     $config['components'][$dbName] = [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=' . $dbConfig['hostname'] . ';dbname=' . $dbConfig['database'],
+        'dsn' => 'mysql:host=' . $dbConfig['hostname'] . ';dbname=' . $dbConfig['database'] . ';port=' . $port,
         'username' => $dbConfig['username'],
         'password' => $dbConfig['password'],
         'charset' => $dbConfig['char_set'],
